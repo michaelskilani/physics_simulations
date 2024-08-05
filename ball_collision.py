@@ -21,7 +21,7 @@ CIRCLE_RADIUS = 350
 CIRCLE_CENTER = (WIDTH // 2, HEIGHT // 2)
 
 # Load the full sound file using pydub
-full_sound = AudioSegment.from_file("Excuse-Me.wav")
+full_sound = AudioSegment.from_file("airplane-sound.wav")
 segment_duration = 250  # Duration of each segment in milliseconds
 num_segments = len(full_sound) // segment_duration
 current_segment = 0
